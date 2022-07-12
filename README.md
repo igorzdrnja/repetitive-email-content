@@ -1,4 +1,15 @@
-# Getting Started with Create React App
+## Repetitive email content tool
+
+This project is using the Count-min-sketch to approximate repetitions of text within sent folder in Gmail:
+
+https://sites.google.com/site/countminsketch/home
+
+Configurable parameters include:
+- Number of days of sent email history to check (though the current hard cap is 100 email messages)
+- Min and max number of words in the phrase to check/to consider it repetitive
+- Accuracy of the data structure for count min sketch
+- Probability of incorrectly computing a value for count min sketch
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
